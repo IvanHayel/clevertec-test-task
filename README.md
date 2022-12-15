@@ -27,15 +27,50 @@
     <li>
       <a href="#-api-usage">API Usage</a>
       <ul>
-        <li><a href="#-endpoints">Endpoints</a></li>
-        <li><a href="#-products">Products</a></li>
-        <li><a href="#-discount-cards">Discount Cards</a></li>
-        <li><a href="#-receipts">Receipts</a></li>
+        <a href="#-endpoints">Endpoints</a>
+        <ul>
+            <li><a href="#-products">Products</a></li>
+            <li><a href="#-discount-cards">Discount Cards</a></li>
+            <li><a href="#-receipts">Receipts</a></li>
+        </ul>
       </ul>
     </li>
     <li>
       <a href="#-demo">Demo</a>
       <ul>
+        <li>
+            <a href="#-products-demo">Products Demo</a>
+            <ul>
+                <li><a href="#get-all-products">Get all products</a></li>
+                <li><a href="#get-product-by-id">Get product by id</a></li>
+                <li><a href="#products-full-text-search">Products full text search</a></li>
+                <li><a href="#add-new-product">Add new product</a></li>
+                <li><a href="#update-existing-product">Update existing product</a></li>
+                <li><a href="#delete-product">Delete product</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#-discount-cards-demo">Discount Cards Demo</a>
+            <ul>
+                <li><a href="#get-all-cards">Get all cards</a></li>
+                <li><a href="#get-card-by-id">Get card by id</a></li>
+                <li><a href="#add-new-card">Add new card</a></li>
+                <li><a href="#update-existing-card">Update existing card</a></li>
+                <li><a href="#delete-card">Delete card</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#-receipts-demo">Receipts Demo</a>
+            <ul>
+                <li><a href="#get-all-receipts">Get all receipts</a></li>
+                <li><a href="#get-receipt-by-id">Get receipt by id</a></li>
+                <li><a href="#receipts-full-text-search">Receipts full text search</a></li>
+                <li><a href="#download-receipt-in-pdf">Download receipt in PDF</a></li>
+                <li><a href="#add-new-receipt">Add new receipt</a></li>
+                <li><a href="#update-existing-receipt">Update existing receipt</a></li>
+                <li><a href="#delete-receipt">Delete receipt</a></li>
+            </ul>
+        </li>
       </ul>
     </li>
   </ol>
@@ -166,3 +201,84 @@ gradle clean build bootRun
 |   **DELETE**    |     `/api/v1/receipts/{id}`      |              none               |                                none                                 | Deleting `Receipt` by id.                  |
 
 ---
+
+## 🪄 Demo
+
+> Insomnia used for demonstration.
+
+<h3 align="center">📦 PRODUCTS DEMO</h2>
+
+### Get all products
+
+![products-all](./documentation/images/demo/products-get-all.png)
+
+### Get product by id
+
+![products-by-id](./documentation/images/demo/products-get-by-id.png)
+
+### Products full text search
+
+![products-search](./documentation/images/demo/products-search.png)
+
+### Add new product
+
+![products-add](./documentation/images/demo/products-add.png)
+
+### Update existing product
+
+![products-update](./documentation/images/demo/products-update.png)
+
+### Delete product
+
+![products-delete](./documentation/images/demo/products-delete.png)
+
+<h3 align="center">💳 DISCOUNT CARDS DEMO</h2>
+
+### Get all cards
+
+![cards-all](./documentation/images/demo/cards-get-all.png)
+
+### Get card by id
+
+![cards-by-id](./documentation/images/demo/cards-get-by-id.png)
+
+### Add new card
+
+![cards-add](./documentation/images/demo/cards-add.png)
+
+### Update existing card
+
+![cards-update](./documentation/images/demo/cards-update.png)
+
+### Delete card
+
+![cards-delete](./documentation/images/demo/cards-delete.png)
+
+<h3 align="center">🧾 RECEIPTS DEMO</h2>
+
+### Get all receipts
+
+![receipts-all](./documentation/images/demo/receipts-get-all.png)
+
+### Get receipt by id
+
+![receipts-by-id](./documentation/images/demo/receipts-get-by-id.png)
+
+### Receipts full text search
+
+![receipts-search](./documentation/images/demo/receipts-search.png)
+
+### Download receipt in PDF
+![receipts-download-pdf](./documentation/images/demo/receipts-download-pdf.png)
+
+### Add new receipt
+
+![receipts-add](./documentation/images/demo/receipts-add.png)
+
+### Update existing receipt
+
+![receipts-update](./documentation/images/demo/receipts-update.png)
+
+### Delete receipt
+
+![receipts-delete](./documentation/images/demo/receipts-delete.png)
